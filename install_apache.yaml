@@ -2,9 +2,6 @@
 - name : install apache
   hosts : all
   become : true
-
-
+  
   roles : 
     - geerlingguy.apache
-
-
