@@ -1,0 +1,5 @@
+---
+- name : geerlingguy.apache
+  hosts: all
+  src : https://github.com/geerlingguy/ansible-role-apache.git
+  version : 4.0.0
